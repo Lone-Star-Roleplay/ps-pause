@@ -4,7 +4,7 @@ Config = Config or {}
 -- # BACKGROUND SECTION # --
 ----------------------------------------------------------------------------------------------------
 -- Allows you to set the preferred background Color from a list of available options.
-Config.Background = "background_projectsloth"
+Config.Background = "background_darkerblue"
 
 -- Available Options --
 -- background_blue
@@ -19,7 +19,7 @@ Config.Background = "background_projectsloth"
 -- background_yellow
 
 -- Allows you to change the opactiy of the Background
-Config.Opacity = 100
+Config.Opacity = 50
 
 ----------------------------------------------------------------------------------------------------
 -- # HEADER and OPTIONS SECTION # --
@@ -27,9 +27,8 @@ Config.Opacity = 100
 
 Config.Header = {
     -- LEFT MENU CONFIG
-    ["TITLE"] = "Project Sloth",
-    ["SUBTITLE"] = "This little Script was made by Jay <3",
-
+    ["TITLE"] = "Lone Star Roleplay",
+    ["SUBTITLE"] = "Survive if You Can",
     ["MAP"] = "Map",
     ["GAME"] = "Exit Game",
     ["LEAVE"] = "Return to Server List",
@@ -42,17 +41,17 @@ Config.Header = {
     ["EDITOR"] = "Rockstar Editor",
 
     -- RIGHT MENU CONFIG
-    ["SERVER_NAME"] = "Project Sloth",
-    ["SERVER_TEXT"] = "LeSiiN is cool",
-    ["SERVER_DISCORD"] = "YOUR DISCORD HERE"
+    ["SERVER_NAME"] = "Lone Star Roleplay",
+    ["SERVER_TEXT"] = "by Era",
+    ["SERVER_DISCORD"] = "https://discord.gg/w9r66R86Nn"
 }
 
 --Allows you to Change the Colour ( Use this Website: https://rgbacolorpicker.com/ )
 Config.RGBA = {
     LINE = { -- Line over the Options
-        ["RED"] = 159,
-        ["GREEN"] = 183,
-        ["BLUE"] = 16,
+        ["RED"] = 107,
+        ["GREEN"] = 170,
+        ["BLUE"] = 209,
         ["ALPHA"] = 255,
     },
     STYLE = { -- Pause Menu Options
@@ -62,9 +61,9 @@ Config.RGBA = {
         ["ALPHA"] = 186,
     },
     WAYPOINT = { -- Waypoint
-        ["RED"] = 164,
-        ["GREEN"] = 76,
-        ["BLUE"] = 242,
+        ["RED"] = 107,
+        ["GREEN"] = 170,
+        ["BLUE"] = 209,
         ["ALPHA"] = 255,
     },
 }
